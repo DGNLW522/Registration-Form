@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+    <meta name="description" content="This document is an example of JavaScript Field label form validation using a sample registration form. " />
+    <link rel='stylesheet' href='style.css' type='text/css' />
+    <script src="form.js"></script>
+</head>
+<body>
+<form name="myForm" method="post" onsubmit="return submitClick();">
+<div class="detailsBox">
+    <h1>Registration</h1><br><br>
+
+    <div class="colm">
+
+    <p> First Name <br>
+    <input type="text" name="fname"  placeholder="Your First Name.." /><br><br>
+    </p>
+
+        <p>Last Name<br>
+    <input type="text" name="lname" placeholder="Your Last Name.." /><br><br>
+        </p>
+        <p>Contact Number<br>
+    <input type="text" name="cnumber" placeholder="Your Contact Number.."/><br><br>
+        </p>
+        <p>Address <br>
+    <textarea name="address" id="address" placeholder="Your Address.." ></textarea><br>
+    </div>
+    <div class="colm">
+        <p>Email Address<br>
+    <input type="text" name="email"  placeholder="Your Email Address.." /><br><br><br>
+        </p>
+        <p>User Type<br><br>
+        <input type="radio" name="typ" value="School" checked /><span>School </span>
+        <input type="radio" name="typ" value="University" /><span>University </span>
+        <input type="radio" name="typ" value="Employee" /><span>Employee </span>
+        </p><br><br><br><br>
+        <p>Payment Type<br><br>
+    <select name="payment">
+        <option selected="" value="Default">Please Select Payment Type</option>
+        <option value="C">Cash</option>
+        <option value="CH">Checks</option>
+        <option value="DC">Debit Cards</option>
+        <option value="MP">Mobile Payments</option>
+        <option value="EBT">Electronic Bank Transfers</option>
+    </select>
+        <p>
+        <input type="submit" name="submit" value="Submit"/>
+    </p>
+
+</form>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,131 @@
+ h1{
+  text-align: center;
+  color:#ffffff;
+
+  }
+
+  .detailsBox
+  {
+  	position:absolute;
+  	top:0%;
+  	left:10%;
+  	transfore:translate(-50%,-50%);
+  	width:1050px;
+  	height:720px;
+  	padding:80px 40px;
+  	box-sizing:border-box;
+  	background:rgba(0,0,0,.5);
+  }
+  body{
+
+  	margine: 0;
+  	padding: 0;
+  	background: url(picture.jpg);
+  	min-height: 700px;
+  	background-size: cover;
+  	font-family: sans-serif;
+  }
+  .detailsBox p{
+  	margin:0;
+  	padding:0;
+  	font-weight:bold;
+  	color:#bfc4ad;
+  }
+  .colm span{
+    	margin:0;
+    	padding:0;
+    	font-weight:bold;
+    	color:#bfc4ad;
+    	}
+  .colm{
+    float: left;
+    width: 50%;
+  }
+
+  /* Clear floats after the columns */
+  .detailsBox:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+navy;
+  margin-top: -20px;
+  }
+  .detailsBox {
+  list-style: none;
+  margin-bottom: 5px;
+  }
+input[type=text], select, textarea {
+  width: 65%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+
+  form  textarea
+  {
+  float: left;
+  width: 350px;
+  height: 150px;
+  }
+ [type="submit"]
+ {
+  clear: left;
+  margin: 40px 0 0 300px;
+  font-size:25px;
+  color:#ffffff;
+  	background:#56564d;
+      position: absolute;
+      top: 80%;
+      left:37%;
+      transform: translate(-50%, -50%);
+  }
+  [type="submit"]:hover{
+  	border:none;
+  	outline:none;
+  	height:30px;
+  	left:37%;
+  	color:#ffffff;
+  	font-size:27px;
+  	background:#56564d;
+  	cursor:pointer;
+  	border-radius:30px;
+  }
+
+  }
